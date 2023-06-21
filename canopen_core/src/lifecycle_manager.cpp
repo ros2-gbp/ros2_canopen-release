@@ -86,11 +86,11 @@ bool LifecycleManager::load_from_config()
     device_names_to_ids.emplace(*it, node_id);
     rclcpp::Client<lifecycle_msgs::srv::GetState>::SharedPtr get_state_client =
       this->create_client<lifecycle_msgs::srv::GetState>(
-        get_state_client_name, rmw_qos_profile_services_default, cbg_clients);
+        get_state_client_name, rclcpp::QoS(10), cbg_clients);
 
     rclcpp::Client<lifecycle_msgs::srv::ChangeState>::SharedPtr change_state_client =
       this->create_client<lifecycle_msgs::srv::ChangeState>(
-        change_state_client_name, rmw_qos_profile_services_default, cbg_clients);
+        change_state_client_name, rclcpp::QoS(10), cbg_clients);
 
     this->drivers_get_state_clients.emplace(node_id, get_state_client);
     this->drivers_change_state_clients.emplace(node_id, change_state_client);
@@ -124,7 +124,7 @@ unsigned int LifecycleManager::get_state(uint8_t node_id, std::chrono::seconds t
   if (future_status != std::future_status::ready)
   {
     RCLCPP_ERROR(
-      get_logger(), "Server time out while getting current state for node %hhu", node_id);
+      get_logger(), "Server time out while getting current state for node 0x%X", node_id);
     return lifecycle_msgs::msg::State::PRIMARY_STATE_UNKNOWN;
   }
   auto result = future_result.get()->current_state;
@@ -153,7 +153,7 @@ bool LifecycleManager::change_state(
   if (future_status != std::future_status::ready)
   {
     RCLCPP_ERROR(
-      get_logger(), "Server time out while getting current state for node %hhu", node_id);
+      get_logger(), "Server time out while getting current state for node 0x%X", node_id);
     return false;
   }
 

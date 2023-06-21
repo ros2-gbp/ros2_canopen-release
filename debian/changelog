@@ -1,0 +1,22 @@
+ros-rolling-canopen-base-driver (0.2.2-1jammy) jammy; urgency=high
+
+
+
+ -- christoph <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-base-driver (0.2.1-1jammy) jammy; urgency=high
+
+  * Fix base driver lifecyle
+  * Fix node polling mode in base driver
+  * Contributors: Błażej Sowa, Christoph Hellmann Santos
+
+ -- christoph <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-base-driver (0.2.0-1jammy) jammy; urgency=high
+
+  * Created package
+  * Contributors: Błażej Sowa, Christoph Hellmann Santos, Denis Štogl, Lovro, Vishnuprasad Prachandabhanu
+
+ -- christoph <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 13 Jun 2023 22:00:00 -0000
+
+

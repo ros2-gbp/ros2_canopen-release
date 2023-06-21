@@ -1,8 +1,0 @@
-ros-rolling-canopen-utils (0.2.0-1jammy) jammy; urgency=high
-
-  * Created package
-  * Contributors: Błażej Sowa, Christoph Hellmann Santos, Vishnuprasad Prachandabhanu
-
- -- christoph <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 13 Jun 2023 22:00:00 -0000
-
-

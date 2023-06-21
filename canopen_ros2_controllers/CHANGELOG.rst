@@ -2,6 +2,9 @@
 Changelog for package canopen_ros2_controllers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2023-06-21)
+------------------
+
 0.2.1 (2023-06-21)
 ------------------
 * Fix QoS build warning canopen_ros2_controllers

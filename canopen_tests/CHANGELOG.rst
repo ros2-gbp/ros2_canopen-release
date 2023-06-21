@@ -2,6 +2,9 @@
 Changelog for package canopen_tests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2023-06-21)
+------------------
+
 0.2.1 (2023-06-21)
 ------------------
 * Add trvivial integration test for robot_control

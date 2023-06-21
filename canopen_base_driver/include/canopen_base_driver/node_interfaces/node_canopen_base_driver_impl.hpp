@@ -163,11 +163,6 @@ void NodeCanopenBaseDriver<NODETYPE>::activate(bool called_from_base)
     this->lely_driver_->set_sync_function(
       std::bind(&NodeCanopenBaseDriver<NODETYPE>::poll_timer_callback, this));
   }
-  // poll_timer_ = this->node_->create_wall_timer(
-  //   std::chrono::milliseconds(period_ms_),
-  //   std::bind(&NodeCanopenBaseDriver<NODETYPE>::poll_timer_callback, this), this->timer_cbg_);
-  this->lely_driver_->set_sync_function(
-    std::bind(&NodeCanopenBaseDriver<NODETYPE>::poll_timer_callback, this));
 
   if (diagnostic_enabled_.load())
   {
@@ -182,7 +177,8 @@ void NodeCanopenBaseDriver<NODETYPE>::deactivate(bool called_from_base)
 {
   nmt_state_publisher_thread_.join();
   poll_timer_->cancel();
-  this->lely_driver_->unset_sync_function();
+  emcy_queue_.reset();
+  rpdo_queue_.reset();
   if (diagnostic_enabled_.load())
   {
     diagnostic_updater_->removeByName("diagnostic updater");
@@ -192,6 +188,8 @@ void NodeCanopenBaseDriver<NODETYPE>::deactivate(bool called_from_base)
 template <class NODETYPE>
 void NodeCanopenBaseDriver<NODETYPE>::cleanup(bool called_from_base)
 {
+  NodeCanopenDriver<NODETYPE>::cleanup(called_from_base);
+  // this->lely_driver_->unset_sync_function();
 }
 
 template <class NODETYPE>

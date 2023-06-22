@@ -1,0 +1,28 @@
+ros-rolling-canopen-ros2-controllers (0.2.3-1jammy) jammy; urgency=high
+
+
+
+ -- Denis Stogl <denis@stoglrobotics.de>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-ros2-controllers (0.2.2-1jammy) jammy; urgency=high
+
+
+
+ -- Denis Stogl <denis@stoglrobotics.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-ros2-controllers (0.2.1-1jammy) jammy; urgency=high
+
+  * Fix QoS build warning canopen_ros2_controllers
+  * Don't use ros2_control_test_assets since not needed anymore. Add load tests for all controllers.
+  * Contributors: Christoph Hellmann Santos, Denis Štogl, Vishnuprasad Prachandabhanu
+
+ -- Denis Stogl <denis@stoglrobotics.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-ros2-controllers (0.2.0-1jammy) jammy; urgency=high
+
+  * Created package
+  * Contributors: Błażej Sowa, Christoph Hellmann Santos, Denis Štogl, Dr.-Ing. Denis Štogl, Lovro, livanov93
+
+ -- Denis Stogl <denis@stoglrobotics.de>  Tue, 13 Jun 2023 22:00:00 -0000
+
+

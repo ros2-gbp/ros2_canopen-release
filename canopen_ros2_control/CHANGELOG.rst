@@ -2,6 +2,11 @@
 Changelog for package canopen_ros2_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2023-06-22)
+------------------
+* Solve buildfarm issues
+* Contributors: Christoph Hellmann Santos
+
 0.2.2 (2023-06-21)
 ------------------
 

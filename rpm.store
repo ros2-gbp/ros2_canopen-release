@@ -1,1 +1,1 @@
-{"base": "ec2e5a6", "parent": "rpm/rolling/canopen_402_driver", "previous": "04e614d", "trim": "", "trimbase": ""}
+{"base": "04004e5", "parent": "rpm/rolling/canopen_402_driver", "previous": "2572e1a", "trim": "", "trimbase": ""}

@@ -2,6 +2,11 @@
 Changelog for package lely_core_libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.5 (2023-06-23)
+------------------
+* Directly install lely
+* Contributors: Christoph Hellmann Santos
+
 0.2.4 (2023-06-22)
 ------------------
 * Add empy dependency for dcfgen

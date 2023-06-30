@@ -1,0 +1,12 @@
+Source: ros-rolling-canopen-utils
+Section: misc
+Priority: optional
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-canopen-interfaces, ros-rolling-lifecycle-msgs, ros-rolling-rclpy, ros-rolling-std-msgs, ros-rolling-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-canopen-utils
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-rolling-canopen-interfaces, ros-rolling-lifecycle-msgs, ros-rolling-rclpy, ros-rolling-std-msgs, ros-rolling-ros-workspace
+Description: Utils for working with ros2_canopen.

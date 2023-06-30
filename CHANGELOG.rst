@@ -2,6 +2,11 @@
 Changelog for package canopen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.7 (2023-06-30)
+------------------
+* Update ros2_control docs.
+* Contributors: Christoph Hellmann Santos, Dr. Denis, Xi Huang
+
 0.2.6 (2023-06-24)
 ------------------
 

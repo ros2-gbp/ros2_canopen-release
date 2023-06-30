@@ -2,6 +2,11 @@
 Changelog for package canopen_master_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.7 (2023-06-30)
+------------------
+* Add missing license headers and activate ament_copyright
+* Contributors: Christoph Hellmann Santos
+
 0.2.6 (2023-06-24)
 ------------------
 

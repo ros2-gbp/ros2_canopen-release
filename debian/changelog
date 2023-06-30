@@ -1,0 +1,51 @@
+ros-rolling-canopen (0.2.7-1bullseye) bullseye; urgency=high
+
+  * Update ros2_control docs.
+  * Contributors: Christoph Hellmann Santos, Dr. Denis, Xi Huang
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 29 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen (0.2.6-1bullseye) bullseye; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Fri, 23 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen (0.2.5-1bullseye) bullseye; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 22 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen (0.2.4-1bullseye) bullseye; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen (0.2.3-1bullseye) bullseye; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen (0.2.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen (0.2.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen (0.2.0-1bullseye) bullseye; urgency=high
+
+  * Created package
+  * Contributors: Borong Yuan, Błażej Sowa, Christoph Hellmann Santos, Denis Štogl, Vishnuprasad Prachandabhanu
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 13 Jun 2023 22:00:00 -0000
+
+

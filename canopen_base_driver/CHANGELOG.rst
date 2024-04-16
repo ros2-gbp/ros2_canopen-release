@@ -2,6 +2,11 @@
 Changelog for package canopen_base_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.9 (2024-04-16)
+------------------
+* Add timeouts
+* Contributors: Vishnuprasad Prachandabhanu
+
 0.2.8 (2024-01-19)
 ------------------
 

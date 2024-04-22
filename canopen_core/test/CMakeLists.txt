@@ -51,6 +51,7 @@ target_link_libraries(test_device_container
     device_container
 )
 endif()
+
 file(COPY bus_configs DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 ament_add_gmock(test_canopen_driver

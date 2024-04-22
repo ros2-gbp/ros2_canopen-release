@@ -1,1 +1,1 @@
-{"base": "722e782", "parent": "debian/rolling/canopen_ros2_control", "previous": "1bcb0e4", "trim": "", "trimbase": ""}
+{"base": "b1034d3", "parent": "debian/rolling/canopen_ros2_control", "previous": "0bd4f69", "trim": "", "trimbase": ""}

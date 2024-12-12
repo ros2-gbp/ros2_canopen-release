@@ -1,1 +1,1 @@
-{"base": "e3cc04b", "parent": "debian/rolling/canopen_proxy_driver", "previous": "61dabc2", "trim": "", "trimbase": ""}
+{"base": "10b8f15", "parent": "debian/rolling/canopen_proxy_driver", "previous": "d45b47c", "trim": "", "trimbase": ""}

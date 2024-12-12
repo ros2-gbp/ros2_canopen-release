@@ -1,0 +1,12 @@
+Source: ros-rolling-canopen-ros2-controllers
+Section: misc
+Priority: optional
+Maintainer: Denis Stogl <denis@stoglrobotics.de>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-cmake-gmock <!nocheck>, ros-rolling-canopen-402-driver, ros-rolling-canopen-interfaces, ros-rolling-canopen-proxy-driver, ros-rolling-controller-interface, ros-rolling-controller-manager, ros-rolling-hardware-interface, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rclcpp-lifecycle, ros-rolling-realtime-tools, ros-rolling-std-msgs, ros-rolling-std-srvs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-canopen-ros2-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-canopen-402-driver, ros-rolling-canopen-interfaces, ros-rolling-canopen-proxy-driver, ros-rolling-controller-interface, ros-rolling-controller-manager, ros-rolling-hardware-interface, ros-rolling-pluginlib, ros-rolling-rclcpp, ros-rolling-rclcpp-lifecycle, ros-rolling-realtime-tools, ros-rolling-std-msgs, ros-rolling-std-srvs, ros-rolling-ros-workspace
+Description: ros2_control controllers for ros2_canopen functionalities

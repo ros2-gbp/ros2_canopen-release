@@ -1,0 +1,79 @@
+ros-rolling-canopen-utils (0.3.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 11 Dec 2024 23:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.12-1bookworm) bookworm; urgency=high
+
+  * 0.2.9
+  * forthcoming
+  * Contributors: ipa-vsp
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Sun, 21 Apr 2024 22:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.9-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Mon, 15 Apr 2024 22:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.8-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 18 Jan 2024 23:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.7-1bookworm) bookworm; urgency=high
+
+  * Add missing license headers and activate ament_copyright
+  * Fix maintainer naming
+  * Contributors: Christoph Hellmann Santos
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 29 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.6-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Fri, 23 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.5-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 22 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.1-1bookworm) bookworm; urgency=high
+
+  * Add more tidy launch_test_node.py
+  * Contributors: Christoph Hellmann Santos
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-utils (0.2.0-1bookworm) bookworm; urgency=high
+
+  * Created package
+  * Contributors: Błażej Sowa, Christoph Hellmann Santos, Vishnuprasad Prachandabhanu
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 13 Jun 2023 22:00:00 -0000
+
+

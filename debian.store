@@ -1,1 +1,1 @@
-{"base": "0f04b36", "parent": "debian/rolling/canopen_402_driver", "previous": "018fc25", "trim": "", "trimbase": ""}
+{"base": "5efb88e33881", "parent": "debian/kilted/canopen_402_driver", "previous": "87270be84e5c", "trim": "", "trimbase": ""}

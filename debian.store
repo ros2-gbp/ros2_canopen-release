@@ -1,1 +1,1 @@
-{"base": "b970b04", "parent": "debian/rolling/lely_core_libraries", "previous": "ec79554", "trim": "", "trimbase": ""}
+{"base": "6ad7e5cc6fb2", "parent": "debian/kilted/lely_core_libraries", "previous": "9604dea3da79", "trim": "", "trimbase": ""}

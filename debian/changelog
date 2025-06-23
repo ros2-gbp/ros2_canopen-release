@@ -1,0 +1,101 @@
+ros-kilted-canopen-402-driver (0.3.1-1noble) noble; urgency=high
+
+  * Homing timeout
+  * Add services to disable/enable motor so that brake is usable.
+  * Contributors: Vishnuprasad Prachandabhanu
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Sun, 22 Jun 2025 22:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.3.0-1noble) noble; urgency=high
+
+  * Reformat using pre-commit
+  * Implement position offsets
+  * pre-commit fix
+  * impl operation mode
+  * Add cyclic torque mode to cia402 driver and robot system controller (#293 <https://github.com/ros-industrial/ros2_canopen/issues/293>)
+    * Add base functions for switching to cyclic torque mode
+    * Add cyclic torque mode as effort interface to robot_system controller
+    * Add documentation about cyclic torque mode.
+    ---------
+    Co-authored-by: Christoph Hellmann Santos <mailto:christoph.hellmann.santos@ipa.fraunhofer.de>
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 11 Dec 2024 23:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.12-1noble) noble; urgency=high
+
+  * 0.2.9
+  * forthcoming
+  * Merge pull request #267 <https://github.com/ros-industrial/ros2_canopen/issues/267> from clalancette/clalancette/update-lely-core-hash
+    Update the lely_core_libraries hash to the latest.
+  * fix ci build error
+  * Contributors: Vishnuprasad Prachandabhanu, ipa-vsp
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Sun, 21 Apr 2024 22:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.9-1noble) noble; urgency=high
+
+  * Update the lely_core_libraries hash to the latest.
+  * fix ci build error
+  * Contributors: Vishnuprasad Prachandabhanu
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Mon, 15 Apr 2024 22:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.8-1noble) noble; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 18 Jan 2024 23:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.7-1noble) noble; urgency=high
+
+  * Add missing license headers and activate ament_copyright
+  * Fix maintainer naming
+  * Contributors: Christoph Hellmann Santos
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 29 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.6-1noble) noble; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Fri, 23 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.5-1noble) noble; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 22 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.4-1noble) noble; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.3-1noble) noble; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.2-1noble) noble; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.1-1noble) noble; urgency=high
+
+  * Fix boost/std placeholders ambiguity in older boost versions
+  * Contributors: Christoph Hellmann Santos
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-402-driver (0.2.0-1noble) noble; urgency=high
+
+  * Created package
+  * Contributors: Borong Yuan, Błażej Sowa, Christoph Hellmann Santos, Denis Štogl, G.A. vd. Hoorn, Lovro, Vishnuprasad Prachandabhanu, livanov93
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 13 Jun 2023 22:00:00 -0000
+
+

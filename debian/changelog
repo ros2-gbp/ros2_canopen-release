@@ -1,0 +1,106 @@
+ros-kilted-canopen-ros2-control (0.3.1-1bookworm) bookworm; urgency=high
+
+  * Fixing ID type in storage of ros2_control system.
+  * Contributors: Dr. Denis, Gerry Salinas, Vishnuprasad Prachandabhanu
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Sun, 22 Jun 2025 22:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.3.0-1bookworm) bookworm; urgency=high
+
+  * pre-commit fix
+  * impl operation mode
+  * Add cyclic torque mode to cia402 driver and robot system controller (#293 <https://github.com/ros-industrial/ros2_canopen/issues/293>)
+    * Add base functions for switching to cyclic torque mode
+    * Add cyclic torque mode as effort interface to robot_system controller
+    * Add documentation about cyclic torque mode.
+    ---------
+    Co-authored-by: Christoph Hellmann Santos <mailto:christoph.hellmann.santos@ipa.fraunhofer.de>
+  * Fix clang format
+  * Update canopen_system.hpp
+  * Add pdo mapping support
+  * Fix clang format
+  * Fix pre-commit
+  * Periodic messages sent, but not received properly.
+  * Fix the bug that the rpdo queue keeps poping although it is empty.
+  * Use proper function to get rpdo data
+  * Fix bug in state interface indexing..
+  * WIP: Extend the rpdo to have a queue (FIFO) to save the values.
+    The read function take the latest value out of the queue and assign to the system interface.
+    Need tests.
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Wed, 11 Dec 2024 23:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.12-1bookworm) bookworm; urgency=high
+
+  * 0.2.9
+  * forthcoming
+  * Contributors: ipa-vsp
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Sun, 21 Apr 2024 22:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.9-1bookworm) bookworm; urgency=high
+
+
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Mon, 15 Apr 2024 22:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.8-1bookworm) bookworm; urgency=high
+
+  * Update robot_system.cpp (#168 <https://github.com/ros-industrial/ros2_canopen/issues/168>)
+  * Contributors: Christoph Hellmann Santos
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Thu, 18 Jan 2024 23:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.7-1bookworm) bookworm; urgency=high
+
+  * Correct Proxy controller after changes and update tests.
+  * Contributors: Dr. Denis, Christoph Hellmann Santos
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Thu, 29 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.6-1bookworm) bookworm; urgency=high
+
+
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Fri, 23 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.5-1bookworm) bookworm; urgency=high
+
+
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Thu, 22 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.3-1bookworm) bookworm; urgency=high
+
+  * Solve buildfarm issues
+  * Contributors: Christoph Hellmann Santos
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.1-1bookworm) bookworm; urgency=high
+
+  * Use consistenlty (uppercase) HEX output for NodeID and Index.
+  * Contributors: Christoph Hellmann Santos, Denis Štogl
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-kilted-canopen-ros2-control (0.2.0-1bookworm) bookworm; urgency=high
+
+  * Created package
+  * Contributors: Błażej Sowa, Christoph Hellmann Santos, Denis Štogl, Lovro, Vishnuprasad Prachandabhanu, livanov93
+
+ -- Lovro Ivanov <lovro.ivanov@gmail.com>  Tue, 13 Jun 2023 22:00:00 -0000
+
+

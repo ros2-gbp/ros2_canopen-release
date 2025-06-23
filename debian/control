@@ -1,0 +1,12 @@
+Source: ros-rolling-lely-core-libraries
+Section: misc
+Priority: optional
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), autoconf, automake, git, libltdl-dev, libtool, libtool-bin, python3-empy, python3-yaml, ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-lely-core-libraries
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-empy, python3-yaml, ros-rolling-ros-workspace
+Description: ROS wrapper for lely-core-libraries

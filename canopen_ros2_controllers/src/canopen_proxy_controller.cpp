@@ -153,8 +153,9 @@ controller_interface::CallbackReturn CanopenProxyController::on_configure(
       std::numeric_limits<double>::quiet_NaN());
   };
 
-  auto service_profile = rclcpp::QoS(1);
-  service_profile.keep_all();
+  auto service_profile = rmw_qos_profile_services_default;
+  service_profile.history = RMW_QOS_POLICY_HISTORY_KEEP_ALL;
+  service_profile.depth = 1;
   nmt_state_reset_service_ = get_node()->create_service<ControllerStartResetSrvType>(
     "~/nmt_reset_node", on_nmt_state_reset, service_profile);
 
@@ -327,9 +328,12 @@ controller_interface::return_type CanopenProxyController::update(
   }
   else if (propagate_controller_command_msg(*current_cmd))
   {
-    command_interfaces_[CommandInterfaces::TPDO_INDEX].set_value((*current_cmd)->index);
-    command_interfaces_[CommandInterfaces::TPDO_SUBINDEX].set_value((*current_cmd)->subindex);
-    command_interfaces_[CommandInterfaces::TPDO_DATA].set_value((*current_cmd)->data);
+    command_interfaces_[CommandInterfaces::TPDO_INDEX].set_value(
+      static_cast<double>((*current_cmd)->index));
+    command_interfaces_[CommandInterfaces::TPDO_SUBINDEX].set_value(
+      static_cast<double>((*current_cmd)->subindex));
+    command_interfaces_[CommandInterfaces::TPDO_DATA].set_value(
+      static_cast<double>((*current_cmd)->data));
     // tpdo data one shot mechanism
     command_interfaces_[CommandInterfaces::TPDO_ONS].set_value(kCommandValue);
 

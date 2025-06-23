@@ -1,0 +1,12 @@
+Source: ros-humble-canopen-fake-slaves
+Section: misc
+Priority: optional
+Maintainer: Christoph Hellmann Santos <cmh@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-lely-core-libraries, ros-humble-lifecycle-msgs, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-canopen-fake-slaves
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-lely-core-libraries, ros-humble-lifecycle-msgs, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-ros-workspace
+Description: Package with mock canopen slave

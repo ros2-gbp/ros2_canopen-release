@@ -1,0 +1,12 @@
+Source: ros-jazzy-canopen-ros2-controllers
+Section: misc
+Priority: optional
+Maintainer: Denis Stogl <denis@stoglrobotics.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gmock <!nocheck>, ros-jazzy-canopen-402-driver, ros-jazzy-canopen-interfaces, ros-jazzy-canopen-proxy-driver, ros-jazzy-controller-interface, ros-jazzy-controller-manager, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-canopen-ros2-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-canopen-402-driver, ros-jazzy-canopen-interfaces, ros-jazzy-canopen-proxy-driver, ros-jazzy-controller-interface, ros-jazzy-controller-manager, ros-jazzy-hardware-interface, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-realtime-tools, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-ros-workspace
+Description: ros2_control controllers for ros2_canopen functionalities

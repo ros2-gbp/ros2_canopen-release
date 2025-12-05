@@ -1,0 +1,12 @@
+Source: ros-kilted-canopen-402-driver
+Section: misc
+Priority: optional
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kilted-ament-cmake-ros, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-canopen-base-driver, ros-kilted-canopen-core, ros-kilted-canopen-interfaces, ros-kilted-canopen-proxy-driver, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rclcpp-lifecycle, ros-kilted-sensor-msgs, ros-kilted-std-srvs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-canopen-402-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kilted-canopen-base-driver, ros-kilted-canopen-core, ros-kilted-canopen-interfaces, ros-kilted-canopen-proxy-driver, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rclcpp-lifecycle, ros-kilted-sensor-msgs, ros-kilted-std-srvs, ros-kilted-ros-workspace
+Description: Driiver for devices implementing CIA402 profile

@@ -1,0 +1,108 @@
+ros-rolling-canopen-core (0.3.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 04 Dec 2025 23:00:00 -0000
+
+ros-rolling-canopen-core (0.3.1-1bookworm) bookworm; urgency=high
+
+  * Add namespacing support
+  * Contributors: Christoph Hellmann Santos, Gerry Salinas, Vishnuprasad Prachandabhanu, ipa-vsp
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Sun, 22 Jun 2025 22:00:00 -0000
+
+ros-rolling-canopen-core (0.3.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 11 Dec 2024 23:00:00 -0000
+
+ros-rolling-canopen-core (0.2.12-1bookworm) bookworm; urgency=high
+
+  * Merge pull request #270 <https://github.com/ros-industrial/ros2_canopen/issues/270> from gsalinas/can-namespace-pr
+    Put components loaded by the device container into its namespace, if any.
+  * pre-commit update
+  * Put components loaded by the device container into its namespace, if any.
+  * Merge pull request #280 <https://github.com/ros-industrial/ros2_canopen/issues/280> from ipa-vsp/fix/yaml-build-error
+    Fix undefined reference to yaml library
+  * fix undefined reference to yaml
+  * Fix logging in device_container.cpp (#277 <https://github.com/ros-industrial/ros2_canopen/issues/277>)
+  * 0.2.9
+  * forthcoming
+  * Merge pull request #220 <https://github.com/ros-industrial/ros2_canopen/issues/220> from ipa-vsp/feature/timeout-config
+    Add timeouts
+  * change from 100ms to 2000ms
+  * non transmit time from bus.yml
+  * timeout for booting slave
+  * Contributors: Christoph Hellmann Santos, Gerry Salinas, Vishnuprasad Prachandabhanu, ipa-vsp
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Sun, 21 Apr 2024 22:00:00 -0000
+
+ros-rolling-canopen-core (0.2.9-1bookworm) bookworm; urgency=high
+
+  * Add timeouts
+  * Contributors: Vishnuprasad Prachandabhanu, ipa-vsp
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Mon, 15 Apr 2024 22:00:00 -0000
+
+ros-rolling-canopen-core (0.2.8-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 18 Jan 2024 23:00:00 -0000
+
+ros-rolling-canopen-core (0.2.7-1bookworm) bookworm; urgency=high
+
+  * Add missing license headers and activate ament_copyright
+  * Fix maintainer naming
+  * Contributors: Christoph Hellmann Santos
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 29 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-core (0.2.6-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Fri, 23 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-core (0.2.5-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Thu, 22 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-core (0.2.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-core (0.2.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Wed, 21 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-core (0.2.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-core (0.2.1-1bookworm) bookworm; urgency=high
+
+  * Fix master and driver lifecycle
+  * Fix QoS build warning in canopen_core
+  * Use consistenlty HEX output for NodeID and Index.
+  * Contributors: Christoph Hellmann Santos, Denis Štogl, Vishnuprasad Prachandabhanu
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 20 Jun 2023 22:00:00 -0000
+
+ros-rolling-canopen-core (0.2.0-1bookworm) bookworm; urgency=high
+
+  * Created package
+  * Contributors: Aulon Bajrami, Borong Yuan, Błażej Sowa, Christoph Hellmann Santos, Denis Štogl, Lovro, Vishnuprasad Prachandabhanu
+
+ -- Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>  Tue, 13 Jun 2023 22:00:00 -0000
+
+

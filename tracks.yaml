@@ -104,4 +104,5 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/ros-industrial/ros2_canopen.git
-    version: :{auto}
+    version: 0.3.2
+    version_saved: :{auto}

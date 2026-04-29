@@ -1,1 +1,1 @@
-{"base": "de44f22851bb", "parent": "debian/rolling/canopen_fake_slaves", "previous": "cc25e173d687", "trim": "", "trimbase": ""}
+{"base": "3dea1e40dcd3", "parent": "debian/lyrical/canopen_fake_slaves", "previous": "54ebced32117", "trim": "", "trimbase": ""}

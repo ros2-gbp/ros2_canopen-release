@@ -1,0 +1,12 @@
+Source: ros-lyrical-canopen-core
+Section: misc
+Priority: optional
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-canopen-interfaces, ros-lyrical-lely-core-libraries, ros-lyrical-lifecycle-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rclcpp-lifecycle, ros-lyrical-yaml-cpp-vendor, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/canopen_core/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-canopen-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-lyrical-canopen-interfaces, ros-lyrical-lely-core-libraries, ros-lyrical-lifecycle-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rclcpp-lifecycle, ros-lyrical-yaml-cpp-vendor, ros-lyrical-ros-workspace
+Description: Core ros2_canopen functionalities such as DeviceContainer and master

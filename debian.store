@@ -1,1 +1,1 @@
-{"base": "c2691935206c", "parent": "debian/rolling/canopen_tests", "previous": "08d74955349d", "trim": "", "trimbase": ""}
+{"base": "d61742ddb68c", "parent": "debian/lyrical/canopen_tests", "previous": "b4384c8cfb92", "trim": "", "trimbase": ""}

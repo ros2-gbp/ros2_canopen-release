@@ -1,0 +1,12 @@
+Source: ros-lyrical-canopen-proxy-driver
+Section: misc
+Priority: optional
+Maintainer: Christoph Hellmann Santos <christoph.hellmann.santos@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-canopen-base-driver, ros-lyrical-canopen-core, ros-lyrical-canopen-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rclcpp-lifecycle, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/canopen_proxy_driver/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-canopen-proxy-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-canopen-base-driver, ros-lyrical-canopen-core, ros-lyrical-canopen-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rclcpp-lifecycle, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-ros-workspace
+Description: Simple proxy driver for the ros2_canopen stack

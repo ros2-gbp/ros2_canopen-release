@@ -1,0 +1,12 @@
+Source: ros-lyrical-canopen-tests
+Section: misc
+Priority: optional
+Maintainer: Christoph Hellmann Santos <cmh@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-lely-core-libraries, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/canopen_tests/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-canopen-tests
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-canopen-402-driver, ros-lyrical-canopen-core, ros-lyrical-canopen-fake-slaves, ros-lyrical-canopen-proxy-driver, ros-lyrical-canopen-ros2-controllers, ros-lyrical-controller-manager, ros-lyrical-forward-command-controller, ros-lyrical-joint-state-broadcaster, ros-lyrical-joint-trajectory-controller, ros-lyrical-robot-state-publisher, ros-lyrical-xacro, ros-lyrical-ros-workspace
+Description: Package with tests for ros2_canopen

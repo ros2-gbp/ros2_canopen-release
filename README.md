@@ -1,3 +1,39 @@
+## ros2_canopen (rolling) - 0.3.3-3
+
+The packages in the `ros2_canopen` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling ros2_canopen` on `Fri, 22 May 2026 13:09:47 -0000`
+
+These packages were released:
+- `canopen`
+- `canopen_402_driver`
+- `canopen_base_driver`
+- `canopen_core`
+- `canopen_fake_slaves`
+- `canopen_interfaces`
+- `canopen_master_driver`
+- `canopen_proxy_driver`
+- `canopen_ros2_control`
+- `canopen_ros2_controllers`
+- `canopen_tests`
+- `canopen_utils`
+- `lely_core_libraries`
+
+Version of package(s) in repository `ros2_canopen`:
+
+- upstream repository: https://github.com/ros-industrial/ros2_canopen.git
+- release repository: https://github.com/ros2-gbp/ros2_canopen-release.git
+- rosdistro version: `0.3.2-2`
+- old version: `0.3.3-2`
+- new version: `0.3.3-3`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## ros2_canopen (rolling) - 0.3.3-2
 
 The packages in the `ros2_canopen` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling ros2_canopen` on `Fri, 22 May 2026 12:19:41 -0000`

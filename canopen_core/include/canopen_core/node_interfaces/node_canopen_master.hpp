@@ -12,8 +12,8 @@
 //    See the License for the specific language governing permissions and
 //    limitations under the License.
 
-#ifndef NODE_CANOPEN_MASTER_HPP_
-#define NODE_CANOPEN_MASTER_HPP_
+#ifndef CANOPEN_CORE__NODE_CANOPEN_MASTER_HPP_
+#define CANOPEN_CORE__NODE_CANOPEN_MASTER_HPP_
 
 #include <yaml-cpp/yaml.h>
 #include <atomic>
@@ -40,7 +40,7 @@ namespace node_interfaces
  * @brief Node Canopen Master
  *
  * This class implements the NodeCanopenMasterInterface. It provides
- * core functionality and logic for CanopenMaster, indepentently of the
+ * core functionality and logic for CanopenMaster, independently of the
  * ROS node type. Currently rclcpp::Node and rclcpp_lifecycle::LifecycleNode
  * and derived classes are supported. Other node types will lead to compile
  * time error.
@@ -85,7 +85,7 @@ protected:
   std::string master_dcf_;
   std::string master_bin_;
   std::string can_interface_name_;
-  uint32_t timeout_;
+  uint32_t timeout_ = 2000;
 
   std::thread spinner_;
 
@@ -169,18 +169,17 @@ public:
 
   virtual void configure(bool called_from_base)
   {
-    std::optional<int> timeout;
     try
     {
-      timeout = this->config_["boot_timeout"].as<int>();
+      this->timeout_ = this->config_["boot_timeout"].as<int>();
     }
     catch (...)
     {
       RCLCPP_WARN(
         this->node_->get_logger(),
-        "No timeout parameter found in config file. Using default value of 100ms.");
+        "No `boot_timeout` parameter found in config file. Using default value of %dms.",
+        this->timeout_);
     }
-    this->timeout_ = timeout.value_or(2000);
     RCLCPP_INFO_STREAM(
       this->node_->get_logger(), "Master boot timeout set to " << this->timeout_ << "ms.");
   }
@@ -389,4 +388,4 @@ public:
 }  // namespace node_interfaces
 }  // namespace ros2_canopen
 
-#endif
+#endif  // CANOPEN_CORE__NODE_CANOPEN_MASTER_HPP_

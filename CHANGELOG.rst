@@ -2,6 +2,17 @@
 Changelog for package canopen_ros2_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.4 (2026-05-24)
+------------------
+
+0.3.3 (2026-05-22)
+------------------
+* Merge pull request `#385 <https://github.com/ros-industrial/ros2_canopen/issues/385>`_
+* Merge pull request `#340 <https://github.com/ros-industrial/ros2_canopen/issues/340>`_
+* Merge pull request `#404 <https://github.com/ros-industrial/ros2_canopen/issues/404>`_
+* Merge pull request `#408 <https://github.com/ros-industrial/ros2_canopen/issues/408>`_
+* Contributors: Benjamin Maidel, Krasimir Milchev, Sven, Tim Clephas, Vishnuprasad Prachandabhanu
+
 0.3.2 (2025-12-05)
 ------------------
 * add pdo 6077 torque actual value to the joint state interface as effort (`#316 <https://github.com/ros-industrial/ros2_canopen/issues/316>`_)

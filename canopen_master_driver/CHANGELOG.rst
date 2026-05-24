@@ -7,6 +7,9 @@ Changelog for package canopen_master_driver
 * Add timeouts
 * Contributors: Vishnuprasad Prachandabhanu
 
+0.3.4 (2026-05-24)
+------------------
+
 0.3.3 (2026-05-22)
 ------------------
 * Merge pull request `#408 <https://github.com/ros-industrial/ros2_canopen/issues/408>`_

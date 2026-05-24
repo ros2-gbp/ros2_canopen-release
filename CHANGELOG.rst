@@ -2,6 +2,13 @@
 Changelog for package canopen_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.4 (2026-05-24)
+------------------
+
+0.3.3 (2026-05-22)
+------------------
+* Contributors: Sven, Tim Clephas, Vishnuprasad Prachandabhanu
+
 0.3.2 (2025-12-05)
 ------------------
 * Enhance SimpleSlave class with vendor ID parsing and adjust bus configuration timeouts

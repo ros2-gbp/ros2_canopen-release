@@ -2,6 +2,21 @@
 Changelog for package canopen_402_driver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.4 (2026-05-24)
+------------------
+* Reorder constructor member initializer list in DefaultHomingMode for consistency
+* Refactor device name handling in LifecycleManager configuration loading
+* Contributors: ipa-vsp
+
+0.3.3 (2026-05-22)
+------------------
+* fix(driver): fix lifecycle node deactive crash (`#372 <https://github.com/ros-industrial/ros2_canopen/issues/372>`_)
+* Merge pull request `#409 <https://github.com/ros-industrial/ros2_canopen/issues/409>`_. Make get_effort optional.
+* Merge pull request `#404 <https://github.com/ros-industrial/ros2_canopen/issues/404>`_. Implement CiA 402-2 multi-channel support for multiple axes per CANopen node
+* Merge pull request `#408 <https://github.com/ros-industrial/ros2_canopen/issues/408>`_ from nobleo/fix/deprecation-of-ament-target-dependencies
+* canopen_402_driver: fixed typo in description (`#341 <https://github.com/ros-industrial/ros2_canopen/issues/341>`_)
+* Contributors: Benjamin Maidel, Jan Vermaete, Sven, Tim Clephas, Vishnuprasad Prachandabhanu, dodola
+
 0.3.2 (2025-12-05)
 ------------------
 * Fix configuration parsing and logging

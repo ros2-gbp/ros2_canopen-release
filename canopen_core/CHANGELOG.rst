@@ -7,6 +7,27 @@ Changelog for package canopen_core
 * Add timeouts
 * Contributors: Vishnuprasad Prachandabhanu, ipa-vsp
 
+0.3.4 (2026-05-24)
+------------------
+* Merge pull request `#433 <https://github.com/ros-industrial/ros2_canopen/issues/433>`_ from ros-industrial/432-lyrical-compatibility
+* Fix Boost package requirement in ConfigExtras.cmake and improve logging format in LifecycleManager
+* Improve error handling in load_from_config by checking for missing node_id and ensuring device_namespace ends with a '/'
+* Format device_namespace assignment for improved readability in load_from_config
+* Refactor device name handling in LifecycleManager configuration loading
+* Contributors: Vishnuprasad Prachandabhanu, ipa-vsp
+
+0.3.3 (2026-05-22)
+------------------
+* Merge pull request `#385 <https://github.com/ros-industrial/ros2_canopen/issues/385>`_
+* Merge pull request `#374 <https://github.com/ros-industrial/ros2_canopen/issues/374>`_
+* fix(driver): fix lifecycle node deactive crash (`#372 <https://github.com/ros-industrial/ros2_canopen/issues/372>`_)
+* fix: typo in device_container.cpp (`#354 <https://github.com/ros-industrial/ros2_canopen/issues/354>`_)
+* Add remappings to bus config (`#352 <https://github.com/ros-industrial/ros2_canopen/issues/352>`_)
+* Merge pull request `#340 <https://github.com/ros-industrial/ros2_canopen/issues/340>`_
+* Merge pull request `#408 <https://github.com/ros-industrial/ros2_canopen/issues/408>`_ from nobleo/fix/deprecation-of-ament-target-dependencies
+* using 'template' keyword to treat 'as' as a dependent template name (`#326 <https://github.com/ros-industrial/ros2_canopen/issues/326>`_)
+* Contributors: Ewoodss, Gaël Écorchard, Krasimir Milchev, Max Kivits, Sven, Tim Clephas, Vishnuprasad Prachandabhanu, dodola, luis-camero
+
 0.3.2 (2025-12-05)
 ------------------
 

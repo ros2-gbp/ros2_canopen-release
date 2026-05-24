@@ -70,20 +70,33 @@ void LifecycleManager::init(std::shared_ptr<ros2_canopen::ConfigurationManager> 
 
 bool LifecycleManager::load_from_config()
 {
-  std::vector<std::string> devices;
-  uint32_t count = this->config_->get_all_devices(devices);
+  std::vector<std::string> device_names;
+  uint32_t count = this->config_->get_all_devices(device_names);
   RCLCPP_INFO(this->get_logger(), "Configuring for %u devices.", count);
 
   // Find master in configuration
-  for (auto it = devices.begin(); it != devices.end(); it++)
+  for (const auto & device_name : device_names)
   {
-    uint8_t node_id = config_->get_entry<uint8_t>(*it, "node_id").value();
-    std::string change_state_client_name = *it;
-    std::string get_state_client_name = *it;
+    auto node_id_opt = config_->get_entry<uint8_t>(device_name, "node_id");
+    if (!node_id_opt.has_value())
+    {
+      RCLCPP_WARN(this->get_logger(), "Skipping %s: missing node_id entry.", device_name.c_str());
+      continue;
+    }
+    uint8_t node_id = node_id_opt.value();
+    std::string device_namespace =
+      config_->get_entry<std::string>(device_name, "namespace").value_or("");
+    if (!device_namespace.empty() && device_namespace.back() != '/')
+    {
+      device_namespace += "/";
+    }
+    device_namespace += device_name;
+    std::string change_state_client_name = device_namespace;
+    std::string get_state_client_name = device_namespace;
     get_state_client_name += "/get_state";
     change_state_client_name += "/change_state";
-    RCLCPP_INFO(this->get_logger(), "Found %s (node_id=%hu)", it->c_str(), node_id);
-    device_names_to_ids.emplace(*it, node_id);
+    RCLCPP_INFO(this->get_logger(), "Found %s (node_id=%hu)", device_name.c_str(), node_id);
+    device_names_to_ids.emplace(device_name, node_id);
     rclcpp::Client<lifecycle_msgs::srv::GetState>::SharedPtr get_state_client =
       this->create_client<lifecycle_msgs::srv::GetState>(
         get_state_client_name, rclcpp::QoS(10), cbg_clients);
@@ -95,7 +108,7 @@ bool LifecycleManager::load_from_config()
     this->drivers_get_state_clients.emplace(node_id, get_state_client);
     this->drivers_change_state_clients.emplace(node_id, change_state_client);
 
-    if (it->find("master") != std::string::npos)
+    if (device_name.find("master") != std::string::npos)
     {
       this->master_id_ = node_id;
     }
@@ -212,9 +225,9 @@ bool LifecycleManager::bring_down_master()
 
 bool LifecycleManager::bring_up_driver(std::string device_name)
 {
-  auto node_id = this->device_names_to_ids[device_name];
+  const auto node_id = this->device_names_to_ids[device_name];
   RCLCPP_DEBUG(this->get_logger(), "Bringing up %s with id %u", device_name.c_str(), node_id);
-  auto master_state = this->get_state(master_id_, 3s);
+  const auto master_state = this->get_state(master_id_, 3s);
   if (master_state != lifecycle_msgs::msg::State::PRIMARY_STATE_ACTIVE)
   {
     RCLCPP_ERROR(

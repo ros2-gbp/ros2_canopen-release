@@ -1,3 +1,39 @@
+## ros2_canopen (kilted) - 0.3.4-1
+
+The packages in the `ros2_canopen` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted ros2_canopen` on `Sun, 24 May 2026 20:04:52 -0000`
+
+These packages were released:
+- `canopen`
+- `canopen_402_driver`
+- `canopen_base_driver`
+- `canopen_core`
+- `canopen_fake_slaves`
+- `canopen_interfaces`
+- `canopen_master_driver`
+- `canopen_proxy_driver`
+- `canopen_ros2_control`
+- `canopen_ros2_controllers`
+- `canopen_tests`
+- `canopen_utils`
+- `lely_core_libraries`
+
+Version of package(s) in repository `ros2_canopen`:
+
+- upstream repository: https://github.com/ros-industrial/ros2_canopen.git
+- release repository: https://github.com/ros2-gbp/ros2_canopen-release.git
+- rosdistro version: `0.3.3-1`
+- old version: `0.3.3-1`
+- new version: `0.3.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## ros2_canopen (lyrical) - 0.3.4-1
 
 The packages in the `ros2_canopen` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical ros2_canopen` on `Sun, 24 May 2026 19:54:07 -0000`

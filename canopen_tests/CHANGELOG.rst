@@ -2,6 +2,14 @@
 Changelog for package canopen_tests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.4 (2026-05-24)
+------------------
+
+0.3.3 (2026-05-22)
+------------------
+* Merge pull request `#404 <https://github.com/ros-industrial/ros2_canopen/issues/404>`_. Implement CiA 402-2 multi-channel support for multiple axes per CANopen node
+* Contributors: Benjamin Maidel, Sven, Tim Clephas, Vishnuprasad Prachandabhanu, ipa-vsp
+
 0.3.2 (2025-12-05)
 ------------------
 * Enhance SimpleSlave class with vendor ID parsing and adjust bus configuration timeouts
